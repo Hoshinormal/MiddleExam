@@ -72,7 +72,6 @@ footer a:hover {
     justify-content: center;
     align-items: center;
     border: 2px;
-
 }
 
 .main_pict {
@@ -80,16 +79,16 @@ footer a:hover {
     align-items: center;
     margin: 10px;
     border-radius: 50%;
-    height: 200px;
+    height: 250px;
 }
 
 .pict_text {
     text-align: left;
-    font-size: 28px;
+    font-size: 38px;
     margin: 10px;
     display: flex;
     text-align: center;
-
+    font-style: italic;
 }
 
 .school {
@@ -127,7 +126,6 @@ footer a:hover {
 
 .container {
     background-color: #4f85dc;
-
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -136,11 +134,19 @@ footer a:hover {
 .content {
     display: flex;
     flex-direction: column;
+    background-color: #4f85dc;
 }
 
 .slids {
     display: flex;
     justify-content: center;
+    background-color: #4f85dc;
+}
+
+#event_t {
+    background-color: #4f85dc;
+
+
 }
 
 .slids img {
