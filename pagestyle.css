@@ -1,10 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    margin: 5px 0px 20px;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.me {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main_pict {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.pict_text {
+    text-align: left;
+    font-size: 28px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+
+}
+
+.school {
+    display: flex;
+    margin: 15px 0px 20px;
+}
+
 .schoolicon {
     height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.schtext {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
 }
 
 .tit {
     margin: 0px 10px;
     font-weight: bold;
+    font-size: 30px;
+    text-align: center;
 }
 
 .titline {
