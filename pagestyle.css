@@ -84,10 +84,9 @@ main {
 .skill {
     display: flex;
     flex-direction: row;
-    text-align: center;
 }
 
-.skilltext {}
+
 
 
 .tit {
