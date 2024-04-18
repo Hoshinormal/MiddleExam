@@ -37,7 +37,19 @@ main {
 
 footer {
     margin-bottom: 0;
+    background-color: #4f85dc;
+    display: flex;
+    justify-content: center;
+}
 
+footer a {
+    background-color: #4f85dc;
+    color: #0d00a2;
+}
+
+footer a:hover {
+    color: #0d00a2;
+    background-color: cornsilk;
 }
 
 .webtit {
@@ -109,12 +121,13 @@ footer {
     width: 100%;
     align-items: center;
     background-color: #4f85dc;
-    border-radius:
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .container {
     background-color: #4f85dc;
-    /* border-radius: 12px; */
+
     overflow: hidden;
     display: flex;
     justify-content: center;
