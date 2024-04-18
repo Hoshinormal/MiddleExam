@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0 20px;
     box-sizing: border-box;
-    font-size: 24px;
+    font-size: 26px;
+    background-color: #F2F4FF;
 }
 
 
@@ -11,16 +12,20 @@ header {
     margin: 0 0 20px 0;
 }
 
+nav {
+    background-color: #95B9D6;
+}
+
 nav a {
-    margin: 20px;
+    margin: 0 20px;
     text-decoration: none;
     font-size: 35px;
-
+    background-color: #95B9D6;
 }
 
 nav a:hover {
-    color: #275DAD;
-    background-color: #B5BFD3;
+    color: #0d00a2;
+    background-color: cornsilk;
 
 }
 
@@ -35,10 +40,15 @@ footer {
 
 }
 
+.webtit {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
 
 .item_c {
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +60,7 @@ footer {
     justify-content: center;
     align-items: center;
     border: 2px;
-    border-color: black;
+
 }
 
 .main_pict {
@@ -94,13 +104,26 @@ footer {
 .tit {
     padding: 20px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     width: 100%;
     align-items: center;
-
+    background-color: #4f85dc;
+    border-radius:
 }
 
+.container {
+    background-color: #4f85dc;
+    /* border-radius: 12px; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
 
 .slids {
     display: flex;
@@ -108,6 +131,6 @@ footer {
 }
 
 .slids img {
-    width: 20%;
+    width: 30%;
     height: auto;
 }
