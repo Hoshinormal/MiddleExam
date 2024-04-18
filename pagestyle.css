@@ -91,25 +91,23 @@ footer {
     flex-direction: row;
 }
 
-
-
-
 .tit {
     padding: 20px;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-
-}
-
-.titline {
-    display: flex;
-    align-items: center;
     width: 100%;
-    border-bottom: 2px solid black;
-    margin-bottom: 10px;
+    align-items: center;
+
 }
 
-.ftlk {
-    text-decoration: none;
+
+.slids {
+    display: flex;
+    justify-content: center;
+}
+
+.slids img {
+    width: 20%;
+    height: auto;
 }
