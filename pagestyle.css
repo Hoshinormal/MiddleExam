@@ -1,4 +1,16 @@
-img {
-    width: 200px;
+.schoolicon {
+    height: 80px;
+}
 
+.tit {
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+.titline {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
 }
