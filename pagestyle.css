@@ -1,26 +1,27 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 20px;
     box-sizing: border-box;
+    font-size: 24px;
 }
 
-.page {
-    margin: 0 auto;
-    padding: 0 20px;
-}
 
 header {
     text-align: center;
-    margin: 5px 0px 20px;
+    margin: 0 0 20px 0;
 }
 
 nav a {
     margin: 20px;
     text-decoration: none;
+    font-size: 35px;
+
 }
 
 nav a:hover {
-    color: gray;
+    color: #275DAD;
+    background-color: #B5BFD3;
+
 }
 
 main {
@@ -30,9 +31,21 @@ main {
 }
 
 
+.item_c {
+    text-align: center;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .me {
     align-items: center;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    border-color: black;
 }
 
 .main_pict {
@@ -54,25 +67,31 @@ main {
 
 .school {
     display: flex;
+    flex-direction: row;
     margin: 15px 0px 20px;
 }
 
 .schoolicon {
     height: 80px;
-    display: flex;
-    align-items: center;
-
+    margin-right: 10px;
 }
 
 .schtext {
-    display: flex;
-    align-items: center;
     text-align: center;
-
+    margin: 0 20px;
 }
 
+.skill {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.skilltext {}
+
+
 .tit {
-    margin: 0px 10px;
+    padding: 20px;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
