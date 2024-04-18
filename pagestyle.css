@@ -30,6 +30,11 @@ main {
     flex-direction: column;
 }
 
+footer {
+    margin-bottom: 0;
+
+}
+
 
 .item_c {
     text-align: center;
@@ -76,7 +81,7 @@ main {
     margin-right: 10px;
 }
 
-.schtext {
+.text {
     text-align: center;
     margin: 0 20px;
 }
@@ -94,6 +99,7 @@ main {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+
 }
 
 .titline {
@@ -102,4 +108,8 @@ main {
     width: 100%;
     border-bottom: 2px solid black;
     margin-bottom: 10px;
+}
+
+.ftlk {
+    text-decoration: none;
 }
